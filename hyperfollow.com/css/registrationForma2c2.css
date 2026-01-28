@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+
+    .registrationFormContainerCompact #signupWithEmailBtn {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .registrationFormContainerCompact #signupWithEmailBtn i {
+        margin-right: 8px;
+    }
+
+    .registrationFormContainerCompact #registrationForm,
+    .registrationFormContainerCompact .or-container-sign-up {
+        display: none;
+    }
+
+    .registrationFormContainerCompact .socialSignup-button {
+        background: white;
+        border: 1px solid #AAA;
+        color: black;
+        font-weight: 700; 
+    }
+
+    .registrationFormContainerCompact .socialApple-button img {
+        filter: brightness(0); 
+    }
+
+}

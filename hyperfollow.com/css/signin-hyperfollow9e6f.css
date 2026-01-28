@@ -1,0 +1,38 @@
+body {
+    background: #2981f0;
+    color: #FFFFFF;
+}
+
+a, a:visited, a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.copyright-info a {
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.button {
+    background: #f02954;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+.button:hover {
+    background: #f83861;
+    cursor: pointer;
+}
+
+.dkCopyrightFooter {
+    color: #FFFFFF;
+}
+
+#footerLine {
+    border-top: 1px solid #dddddd2b;
+}
+
+.footerSocial {
+    display: none;
+}

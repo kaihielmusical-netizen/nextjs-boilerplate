@@ -1,0 +1,224 @@
+/*
+    Standardized CSS used by Team OP
+*/
+:root {
+    --white: rgba(255, 255, 255, 1);
+
+    --gray--50: rgba(249, 250, 251, 1);
+    --gray--200: rgba(229, 231, 235, 1);
+    --gray--300: rgba(209, 213, 219, 1);
+    --gray--500: rgba(107, 114, 128, 1);
+    --gray--600: rgba(75, 85, 99, 1);
+
+    --blue--200: rgba(204, 233, 255, 1);
+    --blue--300: rgba(163, 216, 255, 1);
+    --blue--600: rgba(0, 115, 199, 1);
+
+    --green--300: rgba(110, 231, 183, 1);
+
+    --red--700: rgba(185, 28, 28, 1);
+
+    --yellow--100: rgba(254, 243, 199, 1);
+    --yellow--700: rgba(180, 83, 9, 1);
+
+    --indigo--50: rgba(238, 242, 255, 1);
+    --indigo--300: rgba(165, 180, 252, 1);
+}
+
+/************
+    Text Styles
+*************/
+
+.text-base {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-sm {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-lg {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.text-2xl {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-title {
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/************
+    Buttons
+*************/
+
+button.cta-button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.333rem;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    background: var(--blue--600);
+    color: #fff;
+}
+
+button.cta-button:hover {
+    background: rgb(0,94,163); /* #005ea3 */
+}
+
+button.cta-button.secondary {
+    border: none;
+    background-color: var(--blue--200);
+    color: var(--blue--600);
+}
+
+button.cta-button.disabled {
+    border: none;
+    background-color: var(--gray--200);
+    color: var(--gray--600);
+}
+
+/************
+    Misc
+*************/
+
+.card-shadow {
+    padding: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 115, 199, 0.1);
+    border-radius: 12px;
+    margin: 17px;
+}
+
+.yellow-pill {
+    border-radius: 100px;
+    background-color: var(--yellow--100);
+    color: var(--yellow--700);
+    padding: 4px 16px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.purple-gradient-pill {
+    background: linear-gradient(90.8deg, #41007A -5.87%, #8B23E6 102.45%);
+    color: var(--indigo--50);
+    border-radius: 100px;
+    padding: 4px 16px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.purple-gradient-pill i {
+    color: var(--indigo--300);
+    margin-right: 4px;
+}
+
+/************
+    Ultimate Gradiant Styles
+*************/
+
+button.ultimate-gradient,
+.ultimate-gradient,
+.ultimate-gradient-container {
+    background: linear-gradient(to right, #0174C7, #34D399);
+}
+
+.ultimate-gradient-border {
+    background: white;
+    color: #0073C7;
+    background: linear-gradient(white, white) padding-box,
+	linear-gradient(to right, #0174C7, #34D399) border-box;
+    border: 1px solid transparent;
+}
+
+.ultimate-gradient-container {
+    padding: 1px;
+}
+
+.ultimate-gradient-header {
+    padding: 6px;
+    background: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ultimate-gradient-content {
+    border-radius: 0 0 12px 12px;
+    background: white;
+    padding: 19px;
+}
+
+/************
+    Layout Styles
+*************/
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.flex-wrapper.gap-sm {
+    gap: 4px;
+}
+
+.flex-wrapper > div {
+    flex-basis: 100%;
+}
+
+/************
+    Colors
+*************/
+
+.white {
+    color: var(--white);
+}
+
+.grey-500 {
+    color: var(--gray--500);
+}
+
+.blue-600 {
+    color: var(--blue--600);
+}
+
+.red-700 {
+    color: var(--red--700);
+}

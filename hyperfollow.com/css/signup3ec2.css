@@ -1,0 +1,152 @@
+.wrapper {
+    max-width: unset;
+}
+
+#footerLine-new {
+    margin-top: 0px;
+}
+
+.navNotLoggedIn {
+    display: none;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: white;
+}
+
+.header-logo {
+    width: 100%;
+    max-width: 248px;
+}
+
+.text-title {
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+}
+
+.xmark {
+    width: 1rem;
+}
+
+.svg-black-to-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(255deg);
+}
+
+.blue-gradient {
+    min-height: 100vh;
+    background: linear-gradient(96.77deg, #0073C7 17.72%, #30A1F4 84.53%);
+}
+
+.blue-gradient>div {
+    max-width: 580px;
+    padding: 40px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.signup-page-container {
+    display: flex;
+}
+
+.signup-page-container>div {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-form-container {
+    background: var(--gray--50);
+    align-items: center;
+}
+
+.register-form {
+    width: 400px;
+    margin: 50px 20px;
+    max-width: 600px;
+    background: var(--white);
+    border: 1px solid var(--gray--300);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.heading-sign-up {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 40px 20px 40px;
+}
+
+.normal-price-text {
+    color: var(--blue--300);
+    text-decoration: line-through;
+}
+
+.discount-price-text {
+    color: var(--green--300);
+}
+
+.p-text-xl {
+    font-size: 20px;
+}
+
+.logo-soundtrap {
+    margin-left: -24px;
+    max-width: 360px;
+}
+
+.logo-rapchat {
+    width: 210px;
+}
+
+.logo-bandsintown {
+    max-width: 300px;
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 1300px) {
+
+    .signup-page-container {
+        flex-direction: column;
+    }
+
+    .register-form-container {
+        padding: 20px;
+    }
+
+    .register-form {
+        width: 100%;
+    }
+
+    .blue-gradient {
+        min-height: unset;
+    }
+
+    .blue-gradient>div {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .header-logo-wrapper {
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .text-title {
+        text-align: center;
+    }
+
+    .signup-dsp-logo-grid {
+        display: none;
+    }
+
+}
