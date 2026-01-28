@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 28 Jan 2026 12:19:11 at https://hyperfollow.com/kaihiel +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://hyperfollow.com/kaihiel -O1 "C:\My Web Sites\KaihielHiperfollow" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:19:49	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://hyperfollow.com/kaihiel)
+12:19:54	Warning: 	Found for https://hyperfollow.com/newUser/?app=&c=&albumuuid=&incoming=&forward=&urlStruct=
+12:19:54	Warning: 	File has moved from https://hyperfollow.com/newUser/?app=&c=&albumuuid=&incoming=&forward=&urlStruct= to /?errormsg=Captcha%20problem
+12:21:21	Error: 	"Not Found" (404) at link https://hyperfollow.com/webroot/hyperfollow/page/index.cfm (from https://hyperfollow.com/kaihiel)
+12:21:21	Error: 	"Not Found" (404) at link https://hyperfollow.com/kaihiel/webroot/hyperfollow/page/index.cfm (from https://hyperfollow.com/kaihiel/)
+12:21:35	Error: 	"Method Not Allowed" (405) at link https://hyperfollow.com/api/hyperfollowPcmPreviewSave/ (from https://hyperfollow.com/kaihiel/yo-te-amo-en-mil-lenguas)
+12:21:38	Error: 	"Forbidden" (403) at link https://kit.fontawesome.com/b962c867d2.js (from https://hyperfollow.com/?errormsg=Captcha%20problem)
+12:21:41	Error: 	"Forbidden" (403) at link https://hyperfollow.com/api/v1/user/updateLanguage/ (from https://hyperfollow.com/?errormsg=Captcha%20problem)
+12:28:02	Warning: 	Link https://hyperfollow.com/privacy/ not scanned (follow robots meta tag)
+12:28:03	Warning: 	Found for https://hyperfollow.com/cookies/
+12:28:03	Warning: 	File has moved from https://hyperfollow.com/cookies/ to /privacy/
+12:28:03	Warning: 	Link https://hyperfollow.com/terms/ not scanned (follow robots meta tag)
+12:28:03	Warning: 	Link https://hyperfollow.com/agreement/ not scanned (follow robots meta tag)
+12:28:05	Error: 	"Bad Request" (400) at link https://hyperfollow.com/artistsforchange/page/ (from https://hyperfollow.com/artistsforchange/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 4 seconds : 707 links scanned, 697 files written (33395948 bytes overall) [29574578 bytes received at 54365 bytes/sec], 7021368 bytes transferred using HTTP compression in 130 files, ratio 32%, 3.9 requests per connection
+(7 errors, 7 warnings, 0 messages)
